@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BICSI Conference App</string>
+ <string name="some_text">
+     Fall 2014 Exhibit Hall Schedule
+ </string>
+ <string name="some_hint">
+  Type here to filter by date&#8230;
+ </string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dip" >
+
+    <TextView
+        android:id="@+id/textViewSessionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="sessionname"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+
+    <TextView
+        android:id="@+id/textViewSessionTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewSessionName"
+        android:layout_marginRight="26dp"
+        android:text="sessiontime" />
+
+    <TextView
+        android:id="@+id/textViewScheduleDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewSessionName"
+        android:layout_alignTop="@+id/textViewSessionTime"
+        android:text="scheduledate"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
